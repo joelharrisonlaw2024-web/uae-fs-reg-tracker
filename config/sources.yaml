@@ -1,51 +1,54 @@
 sources:
+  # ---------- DIFC ----------
   - name: DFSA News
     jurisdiction: DIFC
     regulator: DFSA
     url: https://www.dfsa.ae/news
     link_patterns: ["/news/"]
 
-  - name: DFSA Media Releases
-    jurisdiction: DIFC
-    regulator: DFSA
-    url: https://www.dfsa.ae/media-releases
-    link_patterns: ["/media-release", "/news/"]
-
   - name: DFSA Consultations
     jurisdiction: DIFC
     regulator: DFSA
-    url: https://www.dfsa.ae/rulebook/consultation-papers
+    url: https://www.dfsa.ae/your-resources/regulatory/consultation-papers
     link_patterns: ["consultation"]
 
-  - name: DIFC Authority News
+  - name: DIFC / DFSA press backstop (Google News)
     jurisdiction: DIFC
-    regulator: DIFC Authority
-    url: https://www.difc.com/whats-on/news
-    link_patterns: ["/whats-on/news/"]
+    regulator: DFSA / DIFC
+    type: rss
+    url: https://news.google.com/rss/search?q=%22Dubai+Financial+Services+Authority%22+OR+%22DIFC%22&hl=en-AE&gl=AE&ceid=AE:en
 
+  # ---------- ADGM ----------
   - name: ADGM Announcements (incl. FSRA)
     jurisdiction: ADGM
     regulator: ADGM / FSRA
     url: https://www.adgm.com/media/announcements
     link_patterns: ["/media/announcements/"]
 
-  - name: ADGM FSRA Consultations
+  - name: ADGM Public Consultations
     jurisdiction: ADGM
-    regulator: FSRA
-    url: https://www.adgm.com/doing-business/consultation-and-guidance-papers
+    regulator: ADGM / FSRA
+    url: https://www.adgm.com/legal-framework/public-consultations
     link_patterns: ["consultation"]
 
-  - name: CBUAE News & Insights
-    jurisdiction: ONSHORE
-    regulator: CBUAE
-    url: https://www.centralbank.ae/en/news-and-publications/news-and-insights/
-    link_patterns: ["/news"]
+  - name: ADGM / FSRA press backstop (Google News)
+    jurisdiction: ADGM
+    regulator: FSRA / ADGM
+    type: rss
+    url: https://news.google.com/rss/search?q=%22Abu+Dhabi+Global+Market%22+OR+%22ADGM+FSRA%22&hl=en-AE&gl=AE&ceid=AE:en
 
+  # ---------- ONSHORE ----------
   - name: CBUAE Rulebook Updates
     jurisdiction: ONSHORE
     regulator: CBUAE
     url: https://rulebook.centralbank.ae/en/view-revision-updates
     link_patterns: ["/rulebook/"]
+
+  - name: CBUAE press backstop (Google News)
+    jurisdiction: ONSHORE
+    regulator: CBUAE
+    type: rss
+    url: https://news.google.com/rss/search?q=%22Central+Bank+of+the+UAE%22+OR+CBUAE&hl=en-AE&gl=AE&ceid=AE:en
 
   - name: SCA News
     jurisdiction: ONSHORE
@@ -53,14 +56,21 @@ sources:
     url: https://www.sca.gov.ae/en/media-center/news.aspx
     link_patterns: ["/media-center/", "/news"]
 
-  - name: VARA Announcements (Dubai onshore VAs)
+  - name: VARA News
     jurisdiction: ONSHORE
     regulator: VARA
-    url: https://www.vara.ae/en/media/
-    link_patterns: ["/media/", "/announcement", "/news"]
+    url: https://www.vara.ae/en/news/
+    link_patterns: ["/news/"]
+
+  - name: VARA Regulatory Notices
+    jurisdiction: ONSHORE
+    regulator: VARA
+    url: https://www.vara.ae/en/regulations/regulatory-notices/
+    link_patterns: ["/regulatory-notices/"]
 
 keywords:
   - regulation
+  - regulator
   - rulebook
   - rule
   - consultation
@@ -72,6 +82,7 @@ keywords:
   - framework
   - enforcement
   - fine
+  - penalty
   - censure
   - licence
   - license
