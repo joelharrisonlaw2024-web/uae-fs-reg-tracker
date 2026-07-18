@@ -16,7 +16,7 @@ sources:
     jurisdiction: DIFC
     regulator: DFSA / DIFC
     type: rss
-    url: https://news.google.com/rss/search?q=%22Dubai+Financial+Services+Authority%22+OR+%22DIFC%22&hl=en-AE&gl=AE&ceid=AE:en
+    url: https://news.google.com/rss/search?q=%22Dubai+Financial+Services+Authority%22+OR+DFSA&hl=en-AE&gl=AE&ceid=AE:en
 
   # ---------- ADGM ----------
   - name: ADGM Announcements (incl. FSRA)
@@ -67,6 +67,12 @@ sources:
     regulator: VARA
     url: https://www.vara.ae/en/regulations/regulatory-notices/
     link_patterns: ["/regulatory-notices/"]
+
+  - name: VARA press backstop (Google News)
+    jurisdiction: ONSHORE
+    regulator: VARA
+    type: rss
+    url: https://news.google.com/rss/search?q=%22Virtual+Assets+Regulatory+Authority%22+OR+%22VARA%22+Dubai&hl=en-AE&gl=AE&ceid=AE:en
 
 keywords:
   - regulation
