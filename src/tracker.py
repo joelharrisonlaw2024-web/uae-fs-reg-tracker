@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """
 UAE FS Regulatory Tracker - polling job (run every 2 hours by GitHub Actions).
+Supports two source types: plain HTML listing pages (default) and RSS feeds
+(type: rss in config/sources.yaml, used for Google News backstops).
 """
 
 import hashlib
@@ -9,6 +11,7 @@ import os
 import re
 import sys
 import time
+import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
@@ -57,6 +60,11 @@ def url_hash(url: str) -> str:
     return hashlib.sha256(url.strip().lower().rstrip("/").encode()).hexdigest()[:16]
 
 
+def title_hash(title: str) -> str:
+    norm = re.sub(r"[^a-z0-9]+", " ", title.lower()).strip()
+    return "t_" + hashlib.sha256(norm.encode()).hexdigest()[:16]
+
+
 def clean_title(text: str) -> str:
     return re.sub(r"\s+", " ", text or "").strip()
 
@@ -103,6 +111,23 @@ def harvest_links(html, base_url, patterns, exclude=None):
             continue
         seen.add(href)
         items.append({"title": title[:300], "url": href})
+        if len(items) >= MAX_ITEMS_PER_SOURCE:
+            break
+    return items
+
+
+def harvest_rss(xml_text):
+    items = []
+    try:
+        root_xml = ET.fromstring(xml_text)
+    except ET.ParseError as e:
+        print(f"  [warn] RSS parse failed: {e}")
+        return items
+    for node in root_xml.iter("item"):
+        t = clean_title(node.findtext("title") or "")
+        u = (node.findtext("link") or "").strip()
+        if t and u and len(t) >= MIN_TITLE_LEN:
+            items.append({"title": t[:300], "url": u})
         if len(items) >= MAX_ITEMS_PER_SOURCE:
             break
     return items
@@ -204,24 +229,30 @@ def main():
         html = fetch(src["url"])
         if not html:
             continue
-        found = harvest_links(
-            html, src["url"], src["link_patterns"], src.get("exclude_patterns")
-        )
+        if src.get("type") == "rss":
+            found = harvest_rss(html)
+        else:
+            found = harvest_links(
+                html, src["url"], src["link_patterns"], src.get("exclude_patterns")
+            )
         fresh = 0
         for it in found:
             h = url_hash(it["url"])
-            if h in state["seen"]:
+            th = title_hash(it["title"])
+            if h in state["seen"] or th in state["seen"]:
                 continue
             is_rule_source = any(
                 w in src["name"].lower() for w in ("consultation", "rulebook")
             )
             if not is_rule_source and not keyword_relevant(it["title"], keywords):
                 state["seen"][h] = now_iso
+                state["seen"][th] = now_iso
                 continue
             candidates.append(
                 {
                     **it,
                     "hash": h,
+                    "thash": th,
                     "source": src["name"],
                     "jurisdiction": src["jurisdiction"],
                     "regulator": src["regulator"],
@@ -235,6 +266,7 @@ def main():
     accepted = []
     for i, it in enumerate(candidates):
         state["seen"][it["hash"]] = now_iso
+        state["seen"][it.pop("thash")] = now_iso
         v = verdicts.get(i) if verdicts else None
         if v is not None:
             if not v.get("relevant", True):
