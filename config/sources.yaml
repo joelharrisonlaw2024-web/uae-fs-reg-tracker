@@ -1,46 +1,94 @@
-name: Weekly email digest
+sources:
+  - name: DFSA News
+    jurisdiction: DIFC
+    regulator: DFSA
+    url: https://www.dfsa.ae/news
+    link_patterns: ["/news/"]
 
-on:
-  schedule:
-    - cron: "0 4 * * 1"   # Monday 04:00 UTC = 08:00 UAE (GST, UTC+4)
-  workflow_dispatch: {}
+  - name: DFSA Media Releases
+    jurisdiction: DIFC
+    regulator: DFSA
+    url: https://www.dfsa.ae/media-releases
+    link_patterns: ["/media-release", "/news/"]
 
-permissions:
-  contents: write
+  - name: DFSA Consultations
+    jurisdiction: DIFC
+    regulator: DFSA
+    url: https://www.dfsa.ae/rulebook/consultation-papers
+    link_patterns: ["consultation"]
 
-concurrency:
-  group: tracker-data
-  cancel-in-progress: false
+  - name: DIFC Authority News
+    jurisdiction: DIFC
+    regulator: DIFC Authority
+    url: https://www.difc.com/whats-on/news
+    link_patterns: ["/whats-on/news/"]
 
-jobs:
-  digest:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
+  - name: ADGM Announcements (incl. FSRA)
+    jurisdiction: ADGM
+    regulator: ADGM / FSRA
+    url: https://www.adgm.com/media/announcements
+    link_patterns: ["/media/announcements/"]
 
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
+  - name: ADGM FSRA Consultations
+    jurisdiction: ADGM
+    regulator: FSRA
+    url: https://www.adgm.com/doing-business/consultation-and-guidance-papers
+    link_patterns: ["consultation"]
 
-      - name: Install dependencies
-        run: pip install -r requirements.txt
+  - name: CBUAE News & Insights
+    jurisdiction: ONSHORE
+    regulator: CBUAE
+    url: https://www.centralbank.ae/en/news-and-publications/news-and-insights/
+    link_patterns: ["/news"]
 
-      - name: Build and send digest
-        env:
-          SMTP_HOST: ${{ secrets.SMTP_HOST }}
-          SMTP_PORT: ${{ secrets.SMTP_PORT }}
-          SMTP_USER: ${{ secrets.SMTP_USER }}
-          SMTP_PASS: ${{ secrets.SMTP_PASS }}
-          MAIL_FROM: ${{ secrets.MAIL_FROM }}
-          MAIL_TO: ${{ secrets.MAIL_TO }}
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}  # optional
-        run: python src/digest.py
+  - name: CBUAE Rulebook Updates
+    jurisdiction: ONSHORE
+    regulator: CBUAE
+    url: https://rulebook.centralbank.ae/en/view-revision-updates
+    link_patterns: ["/rulebook/"]
 
-      - name: Commit digest snapshot
-        run: |
-          git config user.name "reg-tracker-bot"
-          git config user.email "actions@users.noreply.github.com"
-          git add data/last_digest.html
-          git diff --cached --quiet || git commit -m "digest: $(date -u +'%Y-%m-%d')"
-          git pull --rebase origin ${GITHUB_REF_NAME} || true
-          git push
+  - name: SCA News
+    jurisdiction: ONSHORE
+    regulator: SCA
+    url: https://www.sca.gov.ae/en/media-center/news.aspx
+    link_patterns: ["/media-center/", "/news"]
+
+  - name: VARA Announcements (Dubai onshore VAs)
+    jurisdiction: ONSHORE
+    regulator: VARA
+    url: https://www.vara.ae/en/media/
+    link_patterns: ["/media/", "/announcement", "/news"]
+
+keywords:
+  - regulation
+  - rulebook
+  - rule
+  - consultation
+  - guidance
+  - circular
+  - decree
+  - law
+  - amendment
+  - framework
+  - enforcement
+  - fine
+  - censure
+  - licence
+  - license
+  - aml
+  - sanctions
+  - prudential
+  - crypto
+  - virtual asset
+  - token
+  - stablecoin
+  - fund
+  - insurance
+  - banking
+  - payment
+  - market
+  - disclosure
+  - listing
+  - conduct
+  - supervision
+  - notice
