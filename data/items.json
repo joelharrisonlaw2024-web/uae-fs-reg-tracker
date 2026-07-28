@@ -2167,5 +2167,32 @@
     "jurisdiction": "DIFC",
     "regulator": "DFSA / DIFC",
     "first_seen": "2026-07-28T03:35:13+00:00"
+  },
+  {
+    "title": "Pemo Receives In-Principle Approval for a Stored Value Facilities Licence from the Central Bank of the UAE - بوابة التكنولوجيا المالية",
+    "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE80RjAzRUdjYllnazNyNjUyWG9FelB5MmRGTTVfeDhEaGNJWHVFTkJnbDdxazBYeWN0c0hOTXVfbjVXcVZJ?oc=5",
+    "hash": "40160b6af9977bcd",
+    "source": "CBUAE press backstop (Google News)",
+    "jurisdiction": "ONSHORE",
+    "regulator": "CBUAE",
+    "first_seen": "2026-07-28T10:45:13+00:00"
+  },
+  {
+    "title": "Flipster Secures VARA Full Operational Exchange License, Advancing Regulated Crypto Services in the UAE - TradingView",
+    "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNcENWUXJfSnpzZ2lJVG5USmZsQ19KQmxRS2dCWWtUclc2Mkw0M3ZNX2dLNXhmQXZiUjZLNDB6LVFkNU9EeUM1X1NDTlQ4QTZoUVJrMzBMeE1ra2VfbXJiVDNoZVM2VWRQRG55eXpmSzB0Qk9lWnJXa3FFd1dyRjh4dWtiZDJSaFFNVWF1dGpHLTloUUE5UU1zMWMzVW90NWJyWGFiTm5iTlhBU3FkRURac0JGdkhlZGE3bU5FeWo4VHZFTld4WWxEUk02ZXotZTBPd2pUOTdKSjFIVzhta1lraFkxaElSbTlZRzJKY3NCNGt6Ujlu?oc=5",
+    "hash": "92118446d667d782",
+    "source": "VARA press backstop (Google News)",
+    "jurisdiction": "ONSHORE",
+    "regulator": "VARA",
+    "first_seen": "2026-07-28T10:45:13+00:00"
+  },
+  {
+    "title": "Animoca Brands secures VASP license from Dubai's VARA - TNGlobal",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYlQxZHYydTdHMV82eS0waENTTnpGYURRVHh4S1d6N3lpdTZ5VlduQ3pvNHRnejZWNWlFeU9LbGVUUkZvVFVtbk5NWFY5N2hUaml0X1Q5WWVhRGFES1hkZ2pKZXB1eWhBaERNVDJtdXJHTjg4ekxIeW9ITGVGY2FpZFNNcW9ObHRXdndoTDk4R09CQQ?oc=5",
+    "hash": "66ac52db77a63a79",
+    "source": "VARA press backstop (Google News)",
+    "jurisdiction": "ONSHORE",
+    "regulator": "VARA",
+    "first_seen": "2026-07-28T10:45:13+00:00"
   }
 ]
