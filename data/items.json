@@ -2437,5 +2437,23 @@
     "jurisdiction": "ONSHORE",
     "regulator": "VARA",
     "first_seen": "2026-08-01T17:14:23+00:00"
+  },
+  {
+    "title": "Binance Becomes The First Crypto Exchange to Secure a Global License Under ADGM Framework - Binance",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9uUU90WkNrWTdrQS1lcjNLenh3ZEtBNTJfb0Njd1hrRTFZU2FVMl93LXljVDl4TzdzbXZQdFljbWZLdWwxQVpNaE12SXgwQk9tOWtWdWFkenR1dVJKcjBqQmJicmZkUUlsNVpCMVln?oc=5",
+    "hash": "1b499c02a9e62860",
+    "source": "ADGM / FSRA press backstop (Google News)",
+    "jurisdiction": "ADGM",
+    "regulator": "FSRA / ADGM",
+    "first_seen": "2026-08-02T23:11:20+00:00"
+  },
+  {
+    "title": "Animoca Brands clears a major regulatory hurdle with new Dubai license - CoinDesk",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeno4Sml2TmNTTnVzOS1QaUNwM3BYdnU1RUc4aS1fUkI4S1VPdkdZQTNuZ0QzdTFuZjhjZWVybDRmbmp2ZVNYcHRKQTJRTWVXM1J2YkthOHRqUDR1TUp3MTdPc1BEckZrV0syRnlxbzQwckhjSzZvTW82Q3hEc2FfWERCY2NkVm1JTmpHcnJYeUhwVzFvMU52YWNXdWpNRjBTT1pXYTkwU09pVHZiYUVkLUpuSQ?oc=5",
+    "hash": "7e30fe474a33e12c",
+    "source": "VARA press backstop (Google News)",
+    "jurisdiction": "ONSHORE",
+    "regulator": "VARA",
+    "first_seen": "2026-08-02T23:11:20+00:00"
   }
 ]
