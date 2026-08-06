@@ -2626,5 +2626,14 @@
     "jurisdiction": "ONSHORE",
     "regulator": "VARA",
     "first_seen": "2026-08-06T10:48:45+00:00"
+  },
+  {
+    "title": "Insurance Group Supervision Regulation",
+    "url": "https://rulebook.centralbank.ae/en/rulebook/insurance-group-supervision-regulation",
+    "hash": "88284318d4f27120",
+    "source": "CBUAE Rulebook Updates",
+    "jurisdiction": "ONSHORE",
+    "regulator": "CBUAE",
+    "first_seen": "2026-08-06T14:34:52+00:00"
   }
 ]
