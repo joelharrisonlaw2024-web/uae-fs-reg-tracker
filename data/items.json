@@ -2932,5 +2932,23 @@
     "jurisdiction": "ONSHORE",
     "regulator": "VARA",
     "first_seen": "2026-08-12T07:51:45+00:00"
+  },
+  {
+    "title": "Breaking: Tether’s USDT Secures New Abu Dhabi Global Market Approval After Ripple’s RLUSD - coingape.com",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMmZCX0hidG5CTzA4anMtMjlKMm5VN1N0ZGotcXhvUm5NUXNCMkJHQ0xDSWFHWUFaWEZOd2otRDQ3Wm5JQUljOHhjZk80Ty1IUWVjUzNMVGVOMlBlb3dHdmVDemFLOEZTRjdyZFlJWVE5R2ZWbktEY2NnNFBuRjFucXplSHp5bVp1NkkyblNwZDVLa1NXTF9vMkxDRQ?oc=5",
+    "hash": "f61c0f4ec860ac39",
+    "source": "ADGM / FSRA press backstop (Google News)",
+    "jurisdiction": "ADGM",
+    "regulator": "FSRA / ADGM",
+    "first_seen": "2026-08-12T13:46:29+00:00"
+  },
+  {
+    "title": "Dubai's VARA imposes margin, governance, and disclosure rules on crypto trading and derivatives - theblock.co",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNY19iU3c0eUZYdzFfdWVZaGxWaWd6RW5GV19ia0lOTXA4WkJDcXpfUFFFZDFjTTlQSU40M1dmODZnX3JiY1dSTkZETl9zV3JvcDlHTWlWRkFTTUN5MzBkRkU2WXhoU0lKOXBtOHdpYWdFV3FtX29Bd09sNVZrUDA5VWRQV3AyRDZ0SlRDMmpNTGVUclVxelB5SzM4TTRSNHV0TUlVUnRpejFETUFOZlgtYURzTkppd0RDb0cwWVFONmpoWGNCYkI2dC0xcDExemkydU5XTFlKTElJWHQyM1FpcU9POTY?oc=5",
+    "hash": "0f8e4c9cf93204ab",
+    "source": "VARA press backstop (Google News)",
+    "jurisdiction": "ONSHORE",
+    "regulator": "VARA",
+    "first_seen": "2026-08-12T13:46:29+00:00"
   }
 ]
