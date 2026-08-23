@@ -3319,5 +3319,32 @@
     "jurisdiction": "ADGM",
     "regulator": "FSRA / ADGM",
     "first_seen": "2026-08-22T04:48:42+00:00"
+  },
+  {
+    "title": "Operational Risk Management Regulation",
+    "url": "https://rulebook.centralbank.ae/en/rulebook/operational-risk-management-regulation",
+    "hash": "a3ca9f6b243d0569",
+    "source": "CBUAE Rulebook Updates",
+    "jurisdiction": "ONSHORE",
+    "regulator": "CBUAE",
+    "first_seen": "2026-08-23T14:39:23+00:00"
+  },
+  {
+    "title": "Regulation Regarding Takaful Insurance",
+    "url": "https://rulebook.centralbank.ae/en/rulebook/regulation-regarding-takaful-insurance-0",
+    "hash": "d630468ff0d9070e",
+    "source": "CBUAE Rulebook Updates",
+    "jurisdiction": "ONSHORE",
+    "regulator": "CBUAE",
+    "first_seen": "2026-08-23T14:39:23+00:00"
+  },
+  {
+    "title": "Insurance Company Licensing Regulation",
+    "url": "https://rulebook.centralbank.ae/en/rulebook/insurance-company-licensing-regulation",
+    "hash": "59238e3738a3f149",
+    "source": "CBUAE Rulebook Updates",
+    "jurisdiction": "ONSHORE",
+    "regulator": "CBUAE",
+    "first_seen": "2026-08-23T14:39:23+00:00"
   }
 ]
