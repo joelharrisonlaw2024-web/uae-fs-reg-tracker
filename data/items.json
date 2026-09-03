@@ -4084,5 +4084,32 @@
     "jurisdiction": "ONSHORE",
     "regulator": "CBUAE",
     "first_seen": "2026-09-02T21:03:07+00:00"
+  },
+  {
+    "title": "Why the head of Dubai’s finance regulator won’t let everyone in - Financial News London",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQ0REYjBmSlZBN2RJTm1DcFpHbmRkUk1DNURuSVI5YnhES04xMkNaeGJJVk1MLWdYck9TUDVUajZ6aVNxaVFqMVc5emE2aFYtTmFDLTVPWmFMNmZheTFULUlkY2VQcUlUejhMaXBDQUdnRTB6ajZXbHpzZF9fRExWY1JhVEFfZUxtdS11TF9wcHhEUXNIOExHUHdlYkVjbkJuZkFvVXVocw?oc=5",
+    "hash": "098087c009ade529",
+    "source": "DIFC / DFSA press backstop (Google News)",
+    "jurisdiction": "DIFC",
+    "regulator": "DFSA / DIFC",
+    "first_seen": "2026-09-03T00:15:47+00:00"
+  },
+  {
+    "title": "FSRA introduces a regulatory framework to support the issuance of Fiat-Referenced Tokens in ADGM - ADGM",
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPMm03eTRYT01LQ1daazYzdkRVUm80QTdMcUpENnRJU05Da3ltNmFMN2tzcmJST1U3OGFOTUNoR1N6NWdxb1dza0hJVEdiREVPWXlPUUlMcFhvQjRlR1psNDVzSUM2bUYxNkFYRlM4Z3VNRmttUmNNRi1udTRNVVBJcTJzdEFaSVFHbTFkT05wbmNBTDJoYXRNOG9sSDZYRVRRWnRBam9VNFI1bnFzVDJRY0NhS2gxdnZoYU5CY3FJM3VtSy1TSnFnc01PWWNsdGZmMzlN?oc=5",
+    "hash": "7a59d043712f48f4",
+    "source": "ADGM / FSRA press backstop (Google News)",
+    "jurisdiction": "ADGM",
+    "regulator": "FSRA / ADGM",
+    "first_seen": "2026-09-03T00:15:47+00:00"
+  },
+  {
+    "title": "Animoca Brands secures Dubai VASP license to provide broker-dealer and investment services - The Block",
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOME1rSFI5SF84Z0dHa1NXb2RPZHFfanp0SDVOUGNOa1F5RW5HRVlaNEh3NzVKcW9selMzUTRTTXlYSUNFYkVGVXJvdG1SOVlRMjloamdBU0RKMGdtVXowQS04bUNEeGd6YktoNUs0NXJvSHdNcUtWWkNFTFFMNHdwX3FmN3pON3M1c3FTUXotdzg4TGtLaks4ZFRqOWp4cDVwUlRuV0Q3NjZJaHFzaTBpWXBOZEkwbXI1X1dYMU0tOXpnQWJ6M0R4V3d0U1RiS21GQW01SjhvTDM2M1BaWTI4?oc=5",
+    "hash": "c5e2b495b9766f8f",
+    "source": "VARA press backstop (Google News)",
+    "jurisdiction": "ONSHORE",
+    "regulator": "VARA",
+    "first_seen": "2026-09-03T00:15:47+00:00"
   }
 ]
