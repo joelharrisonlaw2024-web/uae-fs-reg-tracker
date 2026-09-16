@@ -5083,5 +5083,23 @@
     "jurisdiction": "ONSHORE",
     "regulator": "VARA",
     "first_seen": "2026-09-15T21:20:37+00:00"
+  },
+  {
+    "title": "Mondevo Group Establishes Global Headquarters in Abu Dhabi Global Market - TNGlobal",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNEhlU0NYcndmNFBEUnNpem1mV1ZtaWxPY3A3TVFTc2UzMGlnOUF4TzgxWXNiS3h5cmVjc3RYYUtMVkhIQjFFb2lCM2dGRVJTRjZSYmJ2Zk5sOUs1OVBjejY0U1NYMUxtUlVsR09PclVyM21OWWdfYnhxMkV0YlhfLUxfRHRRYjVaZzNHcHc2dHZUVW9MY29nRUR4aXBra050dFRYQVVpRXg?oc=5",
+    "hash": "3204a4cd42291988",
+    "source": "ADGM / FSRA press backstop (Google News)",
+    "jurisdiction": "ADGM",
+    "regulator": "FSRA / ADGM",
+    "first_seen": "2026-09-16T13:30:03+00:00"
+  },
+  {
+    "title": "Paysend receives In-Principle Licence Approval from the Central Bank of the UAE - بوابة التكنولوجيا المالية",
+    "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9UVXBOTS1hTkxobmp3aGhiQklUMGdKSmE4U05HZV9QMUNZQkFYbU05MWVrQzNDU2tJcXl3Ri1jMXpieTdy?oc=5",
+    "hash": "e44127ec9d6c71ab",
+    "source": "CBUAE press backstop (Google News)",
+    "jurisdiction": "ONSHORE",
+    "regulator": "CBUAE",
+    "first_seen": "2026-09-16T13:30:03+00:00"
   }
 ]
