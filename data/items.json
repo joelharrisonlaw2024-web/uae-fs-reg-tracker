@@ -5164,5 +5164,23 @@
     "jurisdiction": "ONSHORE",
     "regulator": "VARA",
     "first_seen": "2026-09-21T12:47:54+00:00"
+  },
+  {
+    "title": "Dubai regulator warns of AI scam using fake 'box of cash and gold' - Gulf News",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNWJsYm1nb1J4RzZaZExmWHNxVHFtZVRHT1BueGdEYlJkRGlkRW9yWVV5OXFXZFpTVUZSUjdnaTlvbUFRM19nRmJWNW9mMy1RZ2NyTzRjU09nX2Q1NmpOYjF3eHBlcHJYTmpYaXNKNmNkd09pcGY3dzdMNmgzS3RvRktxRDc1X2FZRnNpUWlKeTNmSUpobU41TElGaWRVRGsybl9NTzNIMVhoZ03SAb4BQVVfeXFMT3JaNVdyX3EwMk9idEJrOG5aeEJ6LWF0VlJEaF92a1ZsU19fVFdrdzdEMnBtNmN6T3VCdkVObE9lNnZyZWZjRW1xSGc4ZVlfRXpmN2JXSnhiS3ZkejNMRTlWeU5Qb1p5QzA1NFlqd3J1Rk9OTDJwbGhjU3Q4MllxX2p4UjNZaVZ6RWIwZi04Q3pmbUFPVXNETnJoOXlTQlpyelI0WVBWSjMtUlpCdUtsNEdQc0VMTVE4Um9PakV3Zw?oc=5",
+    "hash": "c0f3aeafbe6f8461",
+    "source": "DIFC / DFSA press backstop (Google News)",
+    "jurisdiction": "DIFC",
+    "regulator": "DFSA / DIFC",
+    "first_seen": "2026-09-21T23:16:26+00:00"
+  },
+  {
+    "title": "UAE Payments Company Foloosi Secures CBUAE In-Principle Approval for Category III Licence - بوابة التكنولوجيا المالية",
+    "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9QNTNvQmdCUnlqMlk4c055YTJHMFlEaVdrNTlfQXlFemR3SUk1aFdrR1F0TFJfVjVsUEMybFFnSVd2NTRC?oc=5",
+    "hash": "39e988d8883d552c",
+    "source": "CBUAE press backstop (Google News)",
+    "jurisdiction": "ONSHORE",
+    "regulator": "CBUAE",
+    "first_seen": "2026-09-21T23:16:26+00:00"
   }
 ]
