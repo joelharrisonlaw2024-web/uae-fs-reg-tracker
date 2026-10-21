@@ -6181,5 +6181,86 @@
     "jurisdiction": "ONSHORE",
     "regulator": "VARA",
     "first_seen": "2026-10-21T07:39:07+00:00"
+  },
+  {
+    "title": "DFSA’s updated Crypto Token Framework - Clyde & Co",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPamRJazFuU0ZWcVRSdWN1OFhYaEREVHhwY2x1R2lGRXpza0RUd3BBWXBWbHItZ1MzRDB5dVRDSzFsSlMwY0NTcHBCdUs0TXhJc1JneExfZUJZS0hEWjlNMUhhaTFVZTBaNTRDZHhoM1ZBNWwxT2NnSHhpc1hBZUxWaHYyWmU1RjNi?oc=5",
+    "hash": "468a09f5b6111257",
+    "source": "DIFC / DFSA press backstop (Google News)",
+    "jurisdiction": "DIFC",
+    "regulator": "DFSA / DIFC",
+    "first_seen": "2026-10-21T13:48:00+00:00"
+  },
+  {
+    "title": "Freedom Broker Global Markets Obtains Abu Dhabi Global Market License - Freedom Broker",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQX1ZiaV9vVnFITFVfYjJLVFhwZDFra1g3TURtZjJNMkgySEU4ckItVWczbVlxdGVIbWZjQThVYjhQRWRoT0FRQTU5Y001YzU3aWJlS2hQNG1zcFZVR3VBeFJ4R1JDR3M3Nm9ibHFYQjBzVnA1WmxmMG1saFlnMVFKQk14bEZCdmIyeDJzMW14aGZPZw?oc=5",
+    "hash": "b847484270bbae81",
+    "source": "ADGM / FSRA press backstop (Google News)",
+    "jurisdiction": "ADGM",
+    "regulator": "FSRA / ADGM",
+    "first_seen": "2026-10-21T13:48:00+00:00"
+  },
+  {
+    "title": "CBUAE, Monetary Authority of Singapore discuss cooperation in digital payments, green finance - www.wam.ae",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSjBUa3kwZW9SYW84ZU9KMWVramlGXzd4Nlk3NkY3SnNZRHFhWnJxMUVVMGdMZ0RyV2VQWGF0N0Q2OGs3aGVaUzhGbm9Pc0c3VFVVd09KNDBtX3RuSTJVUlc3SGt6b0hMVzNBV1kyOWd5aHBQV1NqQi1JX2hSOGFQRDFmc1l1RmM?oc=5",
+    "hash": "71133bc240c201cb",
+    "source": "CBUAE press backstop (Google News)",
+    "jurisdiction": "ONSHORE",
+    "regulator": "CBUAE",
+    "first_seen": "2026-10-21T13:48:00+00:00"
+  },
+  {
+    "title": "Ant International Obtains Key Licenses from the Central Bank of the UAE to Support Digital Payments in the AI Era - Via TT",
+    "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPYVM2cnlEbXBQeDFCazdiR0xIZWhiMUZBV2hVSmF1dlYtcTgwU0RVR0dDSWhDVzM5TjhORkdCSmFoMzJoeE9RRS1tQnduWFdCallfOTJfUkhWZTFrZ2U4QzkwU0R0N1JYR245bFNVMGxOMEZ1TEtRUUJvcGtpdEtXR0RFRHFhRDREbDVBalIyXzEyR184cVRoSjFvRVhWOFIyWEd3SXU1X1d3bFBSV0NpMEhvTnp5emJaa3c5bjdJNy1KdUd0RzJUa2t1cXg5N2xxbXd1Nl82TE5za3lYOF9qR3QzbWhuWDlvUmwtdUFUQ2txdFBnTmpRa0JwUkViQzZvU2FWeGg4QVJIMHQtamg4?oc=5",
+    "hash": "fde95c14f7dc0be7",
+    "source": "CBUAE press backstop (Google News)",
+    "jurisdiction": "ONSHORE",
+    "regulator": "CBUAE",
+    "first_seen": "2026-10-21T13:48:00+00:00"
+  },
+  {
+    "title": "CBUAE Board reviews strength, resilience of UAE’s financial system, banking sector; approves proactive financial institution resilience package backed by CBUAE’s assets of AED1 trillion | Emirates News Agency - www.wam.ae",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUFhja2RWNVB3VDdJa0dObDJlV09Pc2lfWkNqdHA1X3NiRDNfZG9MZVNwSmhSSTNVMHRfSjU3TGJYWmlaZkZhekNXWm5mam1BZm1SQUhXeXhzWWxtV2c5Ni05VWZsSWpPdkxsZXRERWx2RnBZYXd1OXdQSnNXczRLMHNmSHU5ZzE2Yl9NN1VsT25TQS12Wmc?oc=5",
+    "hash": "27c5e5d6b1237d4e",
+    "source": "CBUAE press backstop (Google News)",
+    "jurisdiction": "ONSHORE",
+    "regulator": "CBUAE",
+    "first_seen": "2026-10-21T13:48:00+00:00"
+  },
+  {
+    "title": "Mal receives in-principle approval for bank licence from CBUAE - www.wam.ae",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWjU0V09qN3QxU3I5SFYySkthc1JGbXdkSTI2YzNIZ0tWV0FwaGlySzUxWURJanVCRTJZUkREZDZIM3c0WjZJQkhEZWlHcU5tRWd6aVo0dUpGX3BRRm1vbmw3TVdJMFFtWGphODFIZVp3clpQYlNLNTV4Zkdyb1E2R2dEb2JKdHd6?oc=5",
+    "hash": "6fbd5160fabfd8a9",
+    "source": "CBUAE press backstop (Google News)",
+    "jurisdiction": "ONSHORE",
+    "regulator": "CBUAE",
+    "first_seen": "2026-10-21T13:48:00+00:00"
+  },
+  {
+    "title": "UAE President issues Federal Decree appointing Assistant Governors at CBUAE - www.wam.ae",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOQVRqZ3pWNlhoYXNRQUEzdWZtcnNXUENQM2xEOURCZmVVQV9nMm5LN2lxMVVoYVRuSHF1U3JPUllkcnotM3hFSWhLczZQZERnUURDWnFNallSQnRHRkd4dzA0RmtKSHc4aGVhV0xaWjRSS084ZTRYYUxFdktHUy10d2hlaUV3cElWOXR5Tg?oc=5",
+    "hash": "822ca0d7363fde33",
+    "source": "CBUAE press backstop (Google News)",
+    "jurisdiction": "ONSHORE",
+    "regulator": "CBUAE",
+    "first_seen": "2026-10-21T13:48:00+00:00"
+  },
+  {
+    "title": "CBUAE Model Management Standard and Guidance - EY",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4wbkxCSThUMEFLbjc5bDhhOTdaSWFxdGxheGhPYjR6M2M4UWJ6cVNTV29FdExsMWdtWXhhbzU2WUp3SHlQNUhWLVpwcFNsT3pqR2V0aTlhNEhVLTBYcXQ1WG54VlN6R0ZIZFRXdUcxcXk5Z0M5cU5wWVZ3cURPZFE?oc=5",
+    "hash": "175e89906d2c6046",
+    "source": "CBUAE press backstop (Google News)",
+    "jurisdiction": "ONSHORE",
+    "regulator": "CBUAE",
+    "first_seen": "2026-10-21T13:48:00+00:00"
+  },
+  {
+    "title": "Overview of the CBUAE’s new credit risk management regulation - kpmg.com",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdWJyNkF4SnlTOFEtelo3N2ZXbmlQZkdMVXBpaHduRkk2Zk50d2wxQjBvaF9URHh6SHNKd3BGRWhkMlJoT2JIdWlZTm0yUFYzenJPSjctVDNjb0haVGZLZUh3bXB5X0tUUHFEYW5PaWllU2pzTVlhYlZaNGNVRmt0X0NGcGlqeUhPYnlXQnZTa3NtMzNXSngwYXBNTXVwQzM4aDlMN2FJLUxvMXgzVGg3aWxFTlZyZUk?oc=5",
+    "hash": "588afe8e6f925e72",
+    "source": "CBUAE press backstop (Google News)",
+    "jurisdiction": "ONSHORE",
+    "regulator": "CBUAE",
+    "first_seen": "2026-10-21T13:48:00+00:00"
   }
 ]
