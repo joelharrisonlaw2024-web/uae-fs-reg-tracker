@@ -6865,5 +6865,50 @@
     "jurisdiction": "ONSHORE",
     "regulator": "VARA",
     "first_seen": "2026-10-28T08:31:24+00:00"
+  },
+  {
+    "title": "The DFSA fines Moody’s Investors Service Middle East Limited USD 585,825 for data confidentiality breaches",
+    "url": "https://www.dfsa.ae/news/dfsa-fines-moodys-investors-service-middle-east-limited-usd-585825-data-confidentiality-breaches",
+    "hash": "f65b6e4cfb207ea4",
+    "source": "DFSA News",
+    "jurisdiction": "DIFC",
+    "regulator": "DFSA",
+    "first_seen": "2026-10-28T16:37:26+00:00"
+  },
+  {
+    "title": "Dubai regulator fines Moody's Middle East unit Dh2.15m over data breaches - The National",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQblYzYThTOVEwX2FzS3lBMkdNSEFBUkVmcXhVc2VGNHNZR1NibElhNDlRMHJDYnRUQUdSQjZuYkduSW41ajQtUlBKZVhlQWFGdXVnSXVfWjM5ei1jV1FWSXdYbEltQ2hEdUxpcDUtaWpEQzlUbWt5TldQZnVXZElLYlppUDZBcXloa2FKTXgxODZSTDBoTVFidlcxYkNUZmg4QVM5UUR3MkFZTnlFdkFMRGYtejNVdDZ3M0ZYbk5DM3N4Zw?oc=5",
+    "hash": "c9526327d3577a13",
+    "source": "DIFC / DFSA press backstop (Google News)",
+    "jurisdiction": "DIFC",
+    "regulator": "DFSA / DIFC",
+    "first_seen": "2026-10-28T16:37:26+00:00"
+  },
+  {
+    "title": "Dubai regulator fines Moody’s Middle East unit Dh2.15 million - Gulf News",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNUFidFFZaXh5dndNTVA4Vy1XNE9hU3RKMXA5MUF5TnhLejlFZXBzSU1SSXdubnZmRGQtenJrOHNZSzFXZ282MDh5RmVyQjE3VEtFY3ZtZXBvTjZTa1NjWjQ2eHcxOEFEbVhxdWdGYW5LWHN6ZDk5Nlo3bmxoOU1rNU5rdGQyMUZyMTl2a2N5alBXTUZ2dVBMUXZmT1hKdUXSAbIBQVVfeXFMTm9ZU282eWczdDRkY3NsZGtjWTBtalRaa3d5Z2JPRXdXOVVPWDNUb1NscFB5OV9HbmRFaGFrd3FlYTd4emdqeklqZW5yWEF1Wk05SEFPQnJucFcxb2xMcTR1WjlacEFyYkxBMFVualRmWTFxaXp6R3gxNTlDVWhyemVGc01RR2pqMFRTOXBBYzNGWk95eEthMDQ4WER4NDV3M2g2bEVRczR0cGxqcmxLckE0UQ?oc=5",
+    "hash": "6fc99cdf0eac01dc",
+    "source": "DIFC / DFSA press backstop (Google News)",
+    "jurisdiction": "DIFC",
+    "regulator": "DFSA / DIFC",
+    "first_seen": "2026-10-28T16:37:26+00:00"
+  },
+  {
+    "title": "Dubai regulator DFSA fines Moody’s Middle East over leaks of confidential client data - Khaleej Times",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQN2oxSFBKSVp0ZEJrTDFHVHF5aGlQX012TzZ6dmQ3bjhqSmJhSUllMkJVbTFNM0NtYnk2MEZKSnNtZXpHUWFTVUFfek01V0hraUFJM3l6VmhzVTdYaWhtbVJ2NmV0aHNBaXJKYlZuTTcyZDVjTlNHREpFUHZFdGs1ZzZydGphNDlQTFBQMzFSX0dfU1NLa2VXVUFzZmt2OE5yMHk3dm16c0oxNG1DQy1fRTJJck1lNUxWTmc0a1BQONIBxwFBVV95cUxOc1NBTFdYZEZKa3ZfTzFTSnFyMEJBVmZwa1ZrUElYYW1kNmtWQVRYaVlqWHNTZTRQNktDdHZEaEs4c3Y4MTRNYnhZTFRtejJETE1aTnFNNkhoUkNHNk04bWxDOE5EbVVDckpPc2l5WE1oV0dwVG5ZWGJocDNVZ0Q0c043Si1PaWxQSDlNVzdDMVZZNWJmUHphdjdYX3ROd3NVd1dTVGtZQVdUalBfWks4WVFjbDhoRnFYUFhPeFltQ0F0ZzJFY1RB?oc=5",
+    "hash": "f0ecdb206f62b1d7",
+    "source": "DIFC / DFSA press backstop (Google News)",
+    "jurisdiction": "DIFC",
+    "regulator": "DFSA / DIFC",
+    "first_seen": "2026-10-28T16:37:26+00:00"
+  },
+  {
+    "title": "Further Asset Management Leverages Chainlink To Power Tokenized Asset Compliance Platform Within Abu Dhabi Global Market (ADGM) - Chainlink",
+    "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPOFJlNEY5NVRzeU00c2Y2NXJkdG9wUGZlM2FRZUlwUDhzT1BydEVvVlNqT0twS3RwdDM5a3lqWGNIdVVvYi1TTmVXOGV4X1BUcTJuVmhtc1hQb2djNmUybGVXaU0zVUJOQnB0eXNhS0xFTjFMdTZxLWtJek45UzRfT01wNHVrd3N4WXdkWldocTlqSm5lMFNJVTNfYlNudlNYRi1jS2JfbEVUbVRWR2hiUjRoa1dacGpuTjVseUtaOWJNd2ZhNWFHRFpEU0RjbDY2dHVrVzlQaDJFTTZZQkR4bC15WUNGQlpFSS1URDIwSDk?oc=5",
+    "hash": "a7f4581ab07b335b",
+    "source": "ADGM / FSRA press backstop (Google News)",
+    "jurisdiction": "ADGM",
+    "regulator": "FSRA / ADGM",
+    "first_seen": "2026-10-28T16:37:26+00:00"
   }
 ]
